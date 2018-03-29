@@ -1,0 +1,17 @@
+CREATE TABLE ADSBDATA (
+    HEX varchar(255),
+    SQUAWK varchar(255),
+    FLIGHT varchar(255),
+    ALTITUDE int,
+    SPEED int,
+    HEADING int,
+    LAT varchar(255),
+    LON varchar(255),
+    TRACK int,
+    MESSAGES int,
+    SEEN int,
+    Date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP 
+);
+
+INSERT INTO ADSBDATA (HEX,SQUAWK, FLIGHT, ALTITUDE,SPEED,HEADING, LAT,LON,TRACK,MESSAGES,SEEN) 
+                VALUES ('AAAA','BBBB','TK1515',1000,200,150,'10','10',100,10,10);

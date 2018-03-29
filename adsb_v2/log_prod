@@ -1,0 +1,5921 @@
+hex: [H[2
+squawk: [H
+flight: J[H[
+altitude: [H[2
+speed: [H
+heading: J[
+lat: [2J[H
+lon: J[H[2
+track: [H
+messages: [H
+------------------RECEIVED ADSB DATA-----------------
+[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J[H[2J4B8271  S                                                         5     1    1
+
+
+--------------REQUEST-------------------
+
+squawk=%1B%5BH%1B&flight=J%1B%5BH%1B%5B&track=%5BH%1B&lon=J%1B%5BH%1B%5B2&lat=%5B2J%1B%5BH%1B&seen=%1B&speed=%5BH%1B&hex=%1B%5BH%1B%5B2&altitude=%5BH%1B%5B2&messages=%1B%5BH%1B&heading=J%1B%5B
+
+
+hex: 4B8271
+squawk:     
+flight:       
+altitude:      
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:   1 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S                                                         5     1    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=++++++&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+++++&messages=++1+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight:       
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:   3 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S                     1675                                5     3    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=++++++&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1675&messages=++3+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight:       
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:   4 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S                     1675                                6     4    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=++++++&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1675&messages=++4+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   7 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     7    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++7+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   7 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     7    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++7+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   7 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     7    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++7+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   7 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     7    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++7+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   7 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     7    2
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1675&messages=++7+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   7 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     7    2
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1675&messages=++7+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   7 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     7    2
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1675&messages=++7+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   8 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     8    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1675&messages=++8+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   8 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     8    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++8+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   8 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     8    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++8+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   8 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     8    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++8+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   9 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     9    0
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   9 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     9    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++9+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   9 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     9    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++9+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1675
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:   9 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1675                                7     9    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1675&messages=++9+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1750
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  12 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1750                                7    12    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1750&messages=+12+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1750
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  13 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1750                                7    13    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1750&messages=+13+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1750
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  13 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1750                                7    13    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1750&messages=+13+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1750
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  14 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1750                                7    14    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1750&messages=+14+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1750
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  14 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1750                                7    14    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1750&messages=+14+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1750
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  16 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1750                                6    16    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1750&messages=+16+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1750
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  16 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1750                                6    16    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1750&messages=+16+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1750
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  16 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1750                                6    16    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1750&messages=+16+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1775
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  17 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1775                                6    17    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1775&messages=+17+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1775
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  17 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1775                                6    17    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1775&messages=+17+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1775
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  17 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1775                                6    17    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1775&messages=+17+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1775
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  17 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1775                                6    17    0
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1775&messages=+17+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1775
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  17 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1775                                6    17    1
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1775
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  17 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1775                                6    17    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1775&messages=+17+&heading=+++
+
+
+hex: 4B8271
+squawk:     
+flight: BORAN3
+altitude:  1775
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  17 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S           BORAN32   1775                                6    17    1
+
+
+--------------REQUEST-------------------
+
+squawk=++++&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1775&messages=+17+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  19 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                6    19    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1825&messages=+19+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+1825&messages=+21+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  21 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    21    3
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  22 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    22    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1825&messages=+22+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  22 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    22    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1825&messages=+22+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  22 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    22    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1825&messages=+22+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  22 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    22    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1825&messages=+22+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  22 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    22    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1825&messages=+22+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  22 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    22    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1825&messages=+22+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  22 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    22    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1825&messages=+22+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  22 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                5    22    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1825&messages=+22+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  23 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                6    23    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1825&messages=+23+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1825
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  23 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1825                                6    23    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1825&messages=+23+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  24 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                6    24    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1900&messages=+24+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  25 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                6    25    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1900&messages=+25+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  25 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                6    25    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1900&messages=+25+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  25 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                6    25    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1900&messages=+25+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  26 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                6    26    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1900&messages=+26+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  27 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                7    27    0
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  27 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                7    27    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1900&messages=+27+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  28 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                7    28    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1900&messages=+28+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  29 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                7    29    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1900&messages=+29+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  29 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                7    29    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1900&messages=+29+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1900
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  29 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1900                                7    29    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1900&messages=+29+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  30 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    30    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1925&messages=+30+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1925
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  31 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1925                                7    31    0
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1950
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  32 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1950                                7    32    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1950&messages=+32+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1950
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  33 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1950                                7    33    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1950&messages=+33+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1950
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  33 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1950                                7    33    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1950&messages=+33+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1950
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  34 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1950                                7    34    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1950&messages=+34+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1950
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  34 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1950                                7    34    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1950&messages=+34+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1950
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  34 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1950                                7    34    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1950&messages=+34+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1950
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  34 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1950                                7    34    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1950&messages=+34+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1950
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  34 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1950                                7    34    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1950&messages=+34+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1950
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  34 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1950                                7    34    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1950&messages=+34+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  35 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    35    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+35+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  35 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    35    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+35+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  35 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    35    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+35+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  35 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    35    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+35+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  35 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    35    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+35+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  36 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    36    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+36+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  39 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    39    0
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  39 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    39    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+39+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  40 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    40    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+40+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  40 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    40    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+40+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   7
+messages:  40 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                7    40    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++7&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+40+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  41 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    41    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+41+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  41 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    41    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+41+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  41 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    41    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+41+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  41 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    41    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+41+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  41 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    41    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+41+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    2
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    4
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=4&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    4
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=4&speed=+++&hex=4B8271&altitude=+1975&messages=+42+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    4
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    4
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    5
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    5
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    5
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  1975
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  42 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   1975                                6    42    5
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  43 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    43    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2000&messages=+43+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  43 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    43    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2000&messages=+43+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    2
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    4
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=4&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    4
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=4&speed=+++&hex=4B8271&altitude=+2000&messages=+44+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    4
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    4
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2000
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  44 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2000                                6    44    5
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2050&messages=+45+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2050&messages=+45+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2050&messages=+45+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2050&messages=+45+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2050&messages=+45+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2050&messages=+45+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    2
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2050&messages=+45+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2050&messages=+45+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2050
+speed:    
+heading:    
+lat:        
+lon:        
+track:   6
+messages:  45 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2050                                6    45    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++6&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2050&messages=+45+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    0
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=0&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    1
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=1&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    2
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=2&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    3
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    3
+
+
+--------------REQUEST-------------------
+
+squawk=6611&flight=BORAN3&track=++5&lon=+++++++&lat=+++++++&seen=3&speed=+++&hex=4B8271&altitude=+2075&messages=+46+&heading=+++
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    3
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    4
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    4
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    4
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    5
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    5
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    5
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    5
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    6
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    6
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    6
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    6
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    7
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    7
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    7
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    7
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    8
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    8
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    8
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    9
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    9
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    9
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46    9
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   10
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   10
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   10
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   10
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   11
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   11
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   11
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   11
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   12
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   12
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   12
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   13
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   13
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   13
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   13
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   14
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   14
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   14
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   14
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   15
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   15
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   15
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   15
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   16
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   16
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   16
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   16
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   17
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   17
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   17
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   18
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   18
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   18
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   18
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   19
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   19
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   19
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   19
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   20
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   20
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   20
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   20
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   21
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   21
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   21
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   21
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   22
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   22
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   22
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   22
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   23
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   23
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   23
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   24
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   24
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   24
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   24
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   25
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   25
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   25
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   25
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   26
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   26
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   26
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   26
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   27
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   27
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   27
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   27
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   28
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   28
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   28
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   29
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   29
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   29
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   29
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   30
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   30
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   30
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   30
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   31
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   31
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   31
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   31
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   32
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   32
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   32
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   32
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   33
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   33
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   33
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   33
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   34
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   34
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   34
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   35
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   35
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   35
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   35
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   36
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   36
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   36
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   36
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   37
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   37
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   37
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   37
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   38
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   38
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   38
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   38
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   39
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   39
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   39
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   40
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   40
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   40
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   40
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   41
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   41
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   41
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   41
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   42
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   42
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   42
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   42
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   43
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   43
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   43
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   44
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   44
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   44
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   44
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   45
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   45
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   45
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   45
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   46
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   46
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   46
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   47
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   47
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   47
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   47
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   48
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   48
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   48
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   48
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   49
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   49
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   49
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   50
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   50
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   50
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   50
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   51
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   51
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   51
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   51
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   52
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   52
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   52
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   52
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   53
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   53
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   53
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   53
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   54
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   54
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   54
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   55
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   55
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   55
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+track:   5
+messages:  46 
+------------------RECEIVED ADSB DATA-----------------
+[H[2J4B8271  S     6611  BORAN32   2075                                5    46   55
+
+
+hex: 4B8271
+squawk: 6611
+flight: BORAN3
+altitude:  2075
+speed:    
+heading:    
+lat:        
+lon:        
+tr
