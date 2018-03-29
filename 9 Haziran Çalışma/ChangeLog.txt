@@ -1,2 +1,0 @@
---Harita eklendi.
---Harita üzerinde Modes Hex deðeri gösterildi.
