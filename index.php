@@ -79,9 +79,25 @@
 				margin: 0cm 0.5cm;
 			}
 		</style>
-          	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script>
+        		function makeTableScroll()
+        		{
+			        var maxRows = 10;
+			        var table = document.getElementById('adsbdata_table');
+			        var wrapper = table.parentNode;
+			        var rowsInTable = table.rows.length;
+			        var height = 0;
+			        if (rowsInTable > maxRows) {
+			           	for (var i = 0; i < maxRows; i++) {
+			           	    height += table.rows[i].clientHeight;
+			           	}
+			           	wrapper.style.height = height + "px";
+		            }
+        		}
+    	</script>
 </head>
-<body onload="myTableScroll()">
+<body onload="makeTableScroll()">
 		<script type="text/javascript">	
 			
 		var fxml_url = 'http://cmbahadir:pass@flightxml.flightaware.com/json/FlightXML2/';	
@@ -152,21 +168,7 @@
     		infowindow.open(map, marker);
   			});			
 		}
-			
-		function makeTableScroll() {
-           	// Constant retrieved from server-side via JSP
-           	var maxRows = 10;
-           	var table = document.getElementById('adsbdata_table');
-           	var wrapper = table.parentNode;
-           	var rowsInTable = table.rows.length;
-           	var height = 0;
-           	if (rowsInTable > maxRows) {
-           	    for (var i = 0; i < maxRows; i++) {
-           	        height += table.rows[i].clientHeight;
-           	    }
-           	    wrapper.style.height = height + "px";
-           	}
-        }
+		
 		
 		function changeImage() {
 			var image = document.getElementById('myImage');
