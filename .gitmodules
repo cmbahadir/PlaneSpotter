@@ -1,0 +1,3 @@
+[submodule "raspberrypi/dump1090"]
+	path = raspberrypi/dump1090
+	url = git://github.com/antirez/dump1090.git
