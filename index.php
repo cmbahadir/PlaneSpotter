@@ -41,11 +41,10 @@
 			}
 			table {
             	width:50%;
-				height:100rem;
             	border-collapse: collapse;
 			}
 			td, th {
-  				max-width: 50px;
+  				max-width: 150px;
   				max-height: 100px;
   				border: 1px solid #ccc;
   				text-align: center;
@@ -79,7 +78,7 @@
 				margin: 0cm 0.5cm;
 			}
 		</style>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
         <script>
         		function makeTableScroll()
         		{
@@ -100,7 +99,7 @@
 <body onload="makeTableScroll()">
 		<script type="text/javascript">	
 			
-		var fxml_url = 'http://cmbahadir:pass@flightxml.flightaware.com/json/FlightXML2/';	
+		var fxml_url = 'https://cmbahadir:pass@flightxml.flightaware.com/json/FlightXML2/';	
 		var ident = "<?php echo $indent[0] ?>";
 		console.log(ident);
 			
@@ -144,12 +143,19 @@
 		});
 		
 		function initMap(lat,lon) {
+			var planeIcon = new google.maps.MarkerImage(
+			    "/img/plane_generic.png",
+			    null, /* size is determined at runtime */
+			    null, /* origin is 0,0 */
+			    null, /* anchor is bottom center of the scaled image */
+			    new google.maps.Size(42, 42));
 		    var location = new google.maps.LatLng(lat,lon);
 		    var mapCanvas = document.getElementById('izmir_adsb');
 		    var map_options = {
 		      center: location,
-		      zoom: 9,
-		      mapTypeId: google.maps.MapTypeId.ROADMAP
+		      zoom: 11,
+		      mapTypeId: google.maps.MapTypeId.ROADMAP,
+		      zoomControl: false
 		    }
 			
 		    var map = new google.maps.Map(mapCanvas, map_options);
@@ -161,7 +167,7 @@
 		    var marker = new google.maps.Marker({
 		       			 position: location,
 		        		 map: map,
-						 icon: '/img/plane_generic.png'
+						 icon: planeIcon
 		   		 		 });	
 			
 			marker.addListener('click', function() {
@@ -173,16 +179,16 @@
 		function changeImage() {
 			var image = document.getElementById('myImage');
 				if (ident.indexOf("PGT") > -1) {
-					image.src = "http://fsxaibureau.com/wp-content/uploads/2013/07/A319large.png";
+					image.src = "/img/A319large.png";
 				} 
 				else if (ident.indexOf("SX") > -1) {
-					image.src = "http://www.sunexpress.com/images/stories/About_SunExpress/ircraft_sunexpress.jpg";
+					image.src = "/img/A319large.png";
 				} 
 				else if (ident.indexOf("TK") > -1) {
-					image.src = "http://www.turkishairlines.com/documents/thy/img/filo/plane-6.png";
+					image.src = "/img/A319large.png";
 				} 
 				else {
-					image.src = "http://fsxaibureau.com/wp-content/uploads/2013/07/A319large.png";
+					image.src = "/img/A319large.png";
 				}
 		}
 </script> 
