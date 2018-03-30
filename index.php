@@ -40,13 +40,13 @@
 				float:right;
 			}
 			table {
-            			width:50%;
+            	width:50%;
 				height:100rem;
-            			border-collapse: collapse;
+            	border-collapse: collapse;
 			}
 			td, th {
-  				width: 15rem;
-  				height: 2rem;
+  				max-width: 50px;
+  				max-height: 100px;
   				border: 1px solid #ccc;
   				text-align: center;
 			}
