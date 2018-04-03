@@ -1,0 +1,65 @@
+body {
+        padding: 1rem;
+        margin: 5px;
+}
+
+#izmir_adsb {
+        width:50%;
+        height:30em;
+        float:left;
+        border-radius: 10px;
+}
+
+#tab{
+        width:48%;
+        cursor:pointer;
+        border:0.5px solid black;
+        border-collapse:collapse;
+        border-radius: 10px;
+        overflow-y: auto;
+        float:right;
+}
+
+table {
+        width:50%;
+        border-collapse: collapse;
+}
+
+td, th {
+        max-width: 150px;
+        max-height: 100px;
+        border: 1px solid #ccc;
+        text-align: center;
+}
+
+#go_button{
+		color:#08233e;
+		font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+		font-size:90%;
+		padding:14px;
+		background-color:rgba(135,206,250,1);
+		border:1px solid #000080;
+		border-radius:10px;
+		border-bottom:1px solid #9f9f9f;
+		box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+		cursor:pointer;
+		display:block;
+		width:24%;
+        float:right;
+        margin-bottom: 0.5cm;
+}
+
+#header{
+        text-align:center;
+        font-family: "Times New Roman", Times, serif;
+}
+
+#aircraftimage{
+        float: right;
+        text-align:center;
+        width: %24;
+        height: %25;
+        display: block;
+        margin: 0cm 0.5cm;
+}
+
