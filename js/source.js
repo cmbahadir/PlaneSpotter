@@ -4,22 +4,29 @@ var lat = null;
 var lon = null;
 var ident = null;
 
-$(document).ready(function()
+
+function getFlight(callback)
 {
-	        $.ajax({
-			type: 'GET',
-        	        url: '../get_flight.php',
-	                async: true,
-                	success: function(response){
-	                        console.log(response);
-				flights = JSON.parse(response);
-				ident = flights[0].FLIGHT;
-			    	lat = flights[0].LAT;
-				lon = flights[0].LON;
-        	        }               
-        	});
-	
-});
+    $.ajax({
+    type: 'GET',
+    url: '../get_flight.php',
+    success: function(response){
+            callback(response);
+        }       
+    }); 
+}
+
+function getResponse(){
+    getFlight(function(d){
+        flights = JSON.parse(d);
+        ident = flights[0].FLIGHT;
+        lat = flights[0].LAT;
+        lon = flights[0].LON;
+        initMap(lat,lon);
+        changeImage();
+    });
+}
+
 
 $(document).ready(function() {
         $('#go_button').click(function() {
