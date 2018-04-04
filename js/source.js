@@ -62,10 +62,11 @@ $(document).ready(function() {
 function initMap(lat,lon) {
     var planeIcon = new google.maps.MarkerImage(
         "/img/plane_generic.png",
-        null, /* size is determined at runtime */
+        new google.maps.Size(20,20),
         null, /* origin is 0,0 */
         null, /* anchor is bottom center of the scaled image */
-        new google.maps.Size(42, 42));
+        new google.maps.Size(20,20)
+	);
 		
 	if (lat != null && lon !=null)
 	{
@@ -94,12 +95,27 @@ function initMap(lat,lon) {
     var marker = new google.maps.Marker({
                          position: location,
                          map: map,
-                                 icon: planeIcon
-                                 });
+                         icon: planeIcon
+                         });
 
-	marker.addListener('click', function() {
+    marker.addListener('click', function() {
 		infowindow.open(map, marker);
     });
+    
+    map.addListener('zoom_changed', function() {
+	console.log("zoom changed to:" + map.getZoom());	
+	var zoom = map.getZoom();
+	var relative = (zoom < 9) ? 15 : (100/zoom);
+	console.log("relative" + relative);	
+	marker.setIcon(
+		new google.maps.MarkerImage(
+			"/img/plane_generic.png",
+			null,
+			null,
+			null,
+			new google.maps.Size(relative,relative)
+    		));
+	});
 }
 
 
