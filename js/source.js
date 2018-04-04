@@ -22,8 +22,9 @@ function getResponse(){
         ident = flights[0].FLIGHT;
         lat = flights[0].LAT;
         lon = flights[0].LON;
+	changeImage();
         initMap(lat,lon);
-        changeImage();
+	insertIntoTable();
     });
 }
 
@@ -131,4 +132,41 @@ function makeTableScroll()
         }
         wrapper.style.height = height + "px";
     }
+}
+
+function insertIntoTable()
+{
+	var part = document.getElementById("flightdata");
+	var headrow = part.insertRow(0);
+       	headrow.insertCell(0).innerText = "Time";
+        headrow.insertCell(1).innerText = "Hex Code";
+        headrow.insertCell(2).innerText = "Squawk";
+        headrow.insertCell(3).innerText = "Flight";
+        headrow.insertCell(4).innerText = "Altitude";
+        headrow.insertCell(5).innerText = "Speed";
+        headrow.insertCell(6).innerText = "Heading";
+        headrow.insertCell(7).innerText = "Lattitude";
+        headrow.insertCell(8).innerText = "Longtitude";
+        headrow.insertCell(9).innerText = "Track";
+        headrow.insertCell(10).innerText = "Messages";
+        headrow.insertCell(11).innerText = "Seen";
+	if (flights.length > 0)
+	{
+	for(a=0; a<flights.length; a++)
+	{
+		var datarow = part.insertRow(a+1);
+		datarow.insertCell(0).innerText = flights[a].Date;
+		datarow.insertCell(1).innerText = flights[a].HEX;
+		datarow.insertCell(2).innerText = flights[a].SQUAWK;
+		datarow.insertCell(3).innerText = flights[a].FLIGHT;
+		datarow.insertCell(4).innerText = flights[a].ALTITUDE;
+		datarow.insertCell(5).innerText = flights[a].SPEED;
+		datarow.insertCell(6).innerText = flights[a].HEADING;
+		datarow.insertCell(7).innerText = flights[a].LAT;
+		datarow.insertCell(8).innerText = flights[a].LON;
+		datarow.insertCell(9).innerText = flights[a].TRACK;
+		datarow.insertCell(10).innerText = flights[a].MESSAGES;
+		datarow.insertCell(11).innerText = flights[a].SEEN;
+	}
+	}
 }
