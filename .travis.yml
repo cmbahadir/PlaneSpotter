@@ -8,7 +8,7 @@ compiler:
   - g++
 
 before_install:
-  - sudo apt-get install cmake libevent-dev
+  - sudo apt-get install cmake libevent-dev libgtest-dev
   - git clone https://github.com/CopernicaMarketingSoftware/AMQP-CPP.git
   - cd AMQP-CPP
   - mkdir build
@@ -20,3 +20,5 @@ before_install:
 script:
   - cd ../..
   - make
+  - cd tests
+  - make test

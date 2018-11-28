@@ -1,2 +1,5 @@
 bin/sbsDecode
 .vscode
+tests/*.o
+tests/*.a
+tests/tcpListener_test
