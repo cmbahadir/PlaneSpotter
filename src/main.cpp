@@ -2,8 +2,6 @@
 #include "tcpListener.h"
 #include "AMQPHandler.h"
 
-AMQP::Address addres = NULL;
-
 using namespace std;
 
 int main(int argc, char *argv[]) {

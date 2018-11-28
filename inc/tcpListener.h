@@ -37,8 +37,7 @@ class tcpListener {
     unsigned int port;
     bool connected;
 
-  protected: //Can be accessed via child classes
-
+  protected:
   private:
     int enable_keepalive(int sock);
 
