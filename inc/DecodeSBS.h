@@ -20,9 +20,9 @@
 #include <sys/signal.h>
 
 
-class decodeSBS {
+class DecodeSBS {
   public:
-    decodeSBS(); //Constructor of decodeSBS
+    DecodeSBS(); //Constructor of decodeSBS
     void split(const std::string& s, char c,
                 std::vector<std::string>& v);
     //void ToBystream(const std::string& s);

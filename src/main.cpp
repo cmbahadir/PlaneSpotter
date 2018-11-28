@@ -1,4 +1,4 @@
-#include "decodeSBS.h"
+#include "DecodeSBS.h"
 #include "TCPListener.h"
 #include "AMQPHandler.h"
 
@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     else {
         //Class instantiation
         hostaddress = argv[1];
-        decodeSBS* decode = new decodeSBS();
+        DecodeSBS* decode = new DecodeSBS();
         TCPListener* client = new TCPListener(hostaddress, hostport);
         connectStatus = client->connected;
         if (connectStatus == true){

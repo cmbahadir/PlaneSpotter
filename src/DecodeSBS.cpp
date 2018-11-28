@@ -1,8 +1,8 @@
-#include "decodeSBS.h"
+#include "DecodeSBS.h"
 
 using namespace std;
 
-void decodeSBS::split(const string& s, char c,
+void DecodeSBS::split(const string& s, char c,
                 vector<string>& v){
     string::size_type i = 0;
     string::size_type j = s.find(c); //Find special character in string
@@ -62,7 +62,7 @@ void decodeSBS::split(const string& s, char c,
     }
 }
 
-decodeSBS::decodeSBS() {
+DecodeSBS::DecodeSBS() {
     //cout<< "Constructed!" << endl;
 }
 
