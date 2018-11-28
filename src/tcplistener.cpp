@@ -28,7 +28,13 @@ int tcpListener::connect(string host, unsigned int port) {
     bzero(&servaddr, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
     server = gethostbyname(host.data());
-    bcopy((char*) server->h_addr, (char*) &servaddr.sin_addr.s_addr, server->h_length);
+    try{
+        bcopy((char*) server->h_addr, (char*) &servaddr.sin_addr.s_addr, server->h_length);
+    }
+    catch(std::exception& e){
+        std::cout<<"Hostname could not be parsed to serveraddr" << e.what() << std::endl;
+    }
+    
     servaddr.sin_port = htons(port);
 
     if(connected)
