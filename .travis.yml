@@ -1,8 +1,5 @@
 sudo: required
-# before_install:
-#   - sudo apt-get install libao-dev
-#   - sudo apt-get install libcurl4-openssl-dev
-  
+
 # Enable C++ support
 language: cpp
 
@@ -11,7 +8,7 @@ compiler:
   - g++
 
 before_install:
-  - sudo apt-get install cmake
+  - sudo apt-get install cmake libevent-dev
   - git clone https://github.com/CopernicaMarketingSoftware/AMQP-CPP.git
   - cd AMQP-CPP
   - mkdir build
