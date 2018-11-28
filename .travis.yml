@@ -9,20 +9,15 @@ language: cpp
 # Compiler selection
 compiler:
   - g++
-  
-# install:
-#   - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
-#   - mkdir ${DEPS_DIR} && cd ${DEPS_DIR}
-  
-#   - |
-#     if [[ "${TRAVIS_OS_NAME}" == "linux" ]]; then
-#       CMAKE_URL="http://www.cmake.org/files/v3.3/cmake-3.3.2-Linux-x86_64.tar.gz"
-#       mkdir cmake && travis_retry wget --no-check-certificate --quiet -O - ${CMAKE_URL} | tar --strip-components=1 -xz -C cmake
-#       export PATH=${DEPS_DIR}/cmake/bin:${PATH}
-#     fi
-  
-#   # Go to the Root directory  
-#   - cd ..
+
+before_install:
+  - sudo apt-get install cmake
+  - git clone https://github.com/CopernicaMarketingSoftware/AMQP-CPP.git
+  - cd AMQP-CPP
+  - mkdir build
+  - cd build
+  - cmake -DAMQP-CPP_BUILD_EXAMPLES=OFF -DAMQP-CPP_LINUX_TCP=ON ..
+  - make && make install
 
 # Build steps
 script:
