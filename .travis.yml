@@ -13,7 +13,7 @@ before_install:
   - cd AMQP-CPP
   - mkdir build
   - cd build
-  - cmake -DAMQP-CPP_BUILD_EXAMPLES=OFF -DAMQP-CPP_LINUX_TCP=ON -DCMAKE_BUILD_TYPE:STRING=RELEASE ..
+  - cmake -DAMQP-CPP_BUILD_EXAMPLES=OFF -DAMQP-CPP_LINUX_TCP=ON -DAMQP-CPP_BUILD_SHARED=ON -DCMAKE_BUILD_TYPE:STRING=RELEASE ..
   - make && sudo make install
 
 # Build steps
