@@ -8,4 +8,4 @@ sbsDecode: $(OBJS)
 	g++ $(CPPFLAGS) $(INC) -o $(BIN)/sbsDecode $(SRC) $(LIBS)
 
 clean:
-	rm -r bin/*
+	rm -r $(BIN)/*
