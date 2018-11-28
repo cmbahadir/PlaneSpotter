@@ -22,14 +22,10 @@
 
 class decodeSBS {
   public:
-    // clientSock(string host, unsigned int port);
     decodeSBS(); //Constructor of decodeSBS
-    // clientSock(int sock);
-    // ~clientSock();
-
     void split(const std::string& s, char c,
                 std::vector<std::string>& v);
-
+    //void ToBystream(const std::string& s);
   protected:
 
   private:

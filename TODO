@@ -1,0 +1,5 @@
+TODO List:
+
+1- Convert SBS string to bytstream.
+2- Publish ADSB message as ByteStream.
+3- Run TCP and AMQP publish on different threads.
