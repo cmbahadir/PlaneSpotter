@@ -8,7 +8,7 @@ CPPFLAGS += -isystem $(GTEST_DIR)/include
 CXXFLAGS += -g -Wall -Wextra -pthread -std=c++11 -lm -lamqpcpp -ldl -levent
 
 #Add additional tests here
-TESTS = tcpListener_test
+TESTS = TCPListener_Test
 
 
 GTEST_HEADERS = $(GTEST_DIR)/src/*.h
@@ -16,7 +16,7 @@ GTEST_HEADERS = $(GTEST_DIR)/src/*.h
 test : $(TESTS)
 
 clean :
-	rm -f $(TESTBINS)/$(TESTS) $(TESTBINS)/gtest.a $(TESTBINS)/gtest_main.a $(TESTBINS)/*.o
+	rm -f $(TESTS) gtest.a gtest_main.a *.o
 
 
 GTEST_SRCS_ = $(GTEST_DIR)/src/*.cc $(GTEST_DIR)/src/*.h $(GTEST_HEADERS)
@@ -37,15 +37,15 @@ gtest_main.a : gtest-all.o gtest_main.o
 	$(AR) $(ARFLAGS) $@ $^
 
 # Compile the CPP under Test and test objects then execute tests
-tcplistener.o : $(USER_DIR)/src/tcplistener.cpp $(USER_DIR)/inc/tcpListener.h $(GTEST_HEADERS)
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -I$(USER_DIR)/inc -c $(USER_DIR)/src/tcplistener.cpp
+TCPListener.o : $(USER_DIR)/src/TCPListener.cpp $(USER_DIR)/inc/TCPListener.h $(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -I$(USER_DIR)/inc -c $(USER_DIR)/src/TCPListener.cpp
 
-tcpListener_test.o : tcpListener_test.cpp \
-                     $(USER_DIR)/inc/tcpListener.h $(GTEST_HEADERS)
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -I$(USER_DIR)/inc -c $(USER_DIR)/tests/tcpListener_test.cpp
+TCPListener_Test.o : TCPListener_Test.cpp \
+                     $(USER_DIR)/inc/TCPListener.h $(GTEST_HEADERS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -I$(USER_DIR)/inc -c $(USER_DIR)/tests/TCPListener_Test.cpp
 
-tcpListener_test : tcplistener.o tcpListener_test.o gtest_main.a
+TCPListener_Test : TCPListener.o TCPListener_Test.o gtest_main.a
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
 
 test:
-	./tcpListener_test
+	./TCPListener_Test

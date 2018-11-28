@@ -18,12 +18,12 @@
 #include <unistd.h>
 #include <sys/signal.h>
 
-class tcpListener {
+class TCPListener {
   public:
-    tcpListener(std::string host, unsigned int port);
-    tcpListener();
-    tcpListener(int sock);
-    ~tcpListener();
+    TCPListener(std::string host, unsigned int port);
+    TCPListener();
+    TCPListener(int sock);
+    ~TCPListener();
 
     bool hasError();
     int connect(std::string host, unsigned int port);

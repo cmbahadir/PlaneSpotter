@@ -1,29 +1,29 @@
-#include "tcpListener.h"
+#include "TCPListener.h"
 #include "decodeSBS.h"
 
 using namespace std;
 
-tcpListener::tcpListener(string host, unsigned int port) {
+TCPListener::TCPListener(string host, unsigned int port) {
     connect(host, port);
 }
 
-tcpListener::tcpListener() {
+TCPListener::TCPListener() {
     connected = false;
 }
 
-tcpListener::tcpListener(int sock) {
+TCPListener::TCPListener(int sock) {
     sockfd = sock;
     connected = true;
 }
 
 //Destructor
-tcpListener::~tcpListener() {
+TCPListener::~TCPListener() {
     //disconnect();
 }
 
-int tcpListener::connect(string host, unsigned int port) {
-    tcpListener::host = host;
-    tcpListener::port = port;
+int TCPListener::connect(string host, unsigned int port) {
+    TCPListener::host = host;
+    TCPListener::port = port;
 
     bzero(&servaddr, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
@@ -57,7 +57,7 @@ int tcpListener::connect(string host, unsigned int port) {
     return 1;
 }
 
-bool tcpListener::hasError() {
+bool TCPListener::hasError() {
     if(sockfd == -1)
         return true;
 
@@ -71,7 +71,7 @@ bool tcpListener::hasError() {
         return false;
 }
 
-int tcpListener::enable_keepalive(int sock) {
+int TCPListener::enable_keepalive(int sock) {
     int yes = 1;
 
     if(setsockopt(sock, SOL_SOCKET, SO_KEEPALIVE, &yes, sizeof(int)) == -1)
@@ -95,7 +95,7 @@ int tcpListener::enable_keepalive(int sock) {
     return 0;
 }
 
-int tcpListener::disconnect() {
+int TCPListener::disconnect() {
     if(!connected)
         return -1;
 
@@ -105,7 +105,7 @@ int tcpListener::disconnect() {
     return 0;
 }
 
-int tcpListener::write(string mesg) {
+int TCPListener::write(string mesg) {
     if(!connected)
         return 1;
 
@@ -140,7 +140,7 @@ int tcpListener::write(string mesg) {
     return 0;
 }
 
-string tcpListener::read() {
+string TCPListener::read() {
     if(!connected)
         return "";
 
@@ -202,7 +202,7 @@ string tcpListener::read() {
     return resp;
 }
 
-string tcpListener::readAll() {
+string TCPListener::readAll() {
     string full = read();
 
     while(full.find("END") == string::npos)

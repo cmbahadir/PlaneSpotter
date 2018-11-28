@@ -1,20 +1,20 @@
 #include <gtest/gtest.h>
-#include "tcpListener.h"
+#include "TCPListener.h"
 
 TEST(TCPListener_Construct_with_Dummy_Hostname, Not_Segfault){
-    ASSERT_EXIT((new tcpListener("dummy", 30003),exit(0)),::testing::ExitedWithCode(0),".*");
+    ASSERT_EXIT((new TCPListener("dummy", 30003),exit(0)),::testing::ExitedWithCode(0),".*");
 }
 
-
+// @todo: Comment out if above test is passed.
 // TEST(Try_To_Connect_Unknown_Host, empty) {
-//     tcpListener* client = new tcpListener("dummy", 30003);
+//     TCPListener* client = new TCPListener("dummy", 30003);
 //     bool status = client->connected;
 //     delete client;
 //     ASSERT_EQ(false, status);
 // }
  
 // TEST(Try_To_Connnect_Unknown_Port, dummy) {
-//     tcpListener* client = new tcpListener("localhost", 10);
+//     TCPListener* client = new TCPListener("localhost", 10);
 //     bool status = client->connected;
 //     delete client;
 //     ASSERT_EQ(false, status);

@@ -1,5 +1,5 @@
 #include "decodeSBS.h"
-#include "tcpListener.h"
+#include "TCPListener.h"
 #include "AMQPHandler.h"
 
 using namespace std;
@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
         //Class instantiation
         hostaddress = argv[1];
         decodeSBS* decode = new decodeSBS();
-        tcpListener* client = new tcpListener(hostaddress, hostport);
+        TCPListener* client = new TCPListener(hostaddress, hostport);
         connectStatus = client->connected;
         if (connectStatus == true){
             string response = client->read();
