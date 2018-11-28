@@ -22,4 +22,4 @@ before_install:
 # Build steps
 script:
   - pwd
-  - make -f ../../PlaneSpotter/Makefile
+  - make -f ../../Makefile
