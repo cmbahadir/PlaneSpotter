@@ -5,7 +5,7 @@ TESTBINS = /obj
 # Where to find user code.
 USER_DIR = ..
 CPPFLAGS += -isystem $(GTEST_DIR)/include
-CXXFLAGS += -g -Wall -Wextra -pthread -std=c++11 -lm -lamqpcpp -ldl -levent -lgtest
+CXXFLAGS += -g -Wall -Wextra -pthread -std=c++11 -lm -lamqpcpp -ldl -levent
 
 #Add additional tests here
 TESTS = tcpListener_test
