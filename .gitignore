@@ -2,4 +2,7 @@ bin/sbsDecode
 .vscode
 tests/*.o
 tests/*.a
-tests/tcpListener_test
+tests/TCPListener_Test
+tests/*.gcov
+tests/*.gcno
+tests/*.gcda

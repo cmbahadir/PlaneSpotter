@@ -9,6 +9,7 @@ compiler:
 
 before_install:
   - sudo apt-get install cmake libevent-dev libgtest-dev
+  - sudo pip install cpp-coveralls
   - git clone https://github.com/CopernicaMarketingSoftware/AMQP-CPP.git
   - cd AMQP-CPP
   - mkdir build
@@ -20,6 +21,6 @@ before_install:
 script:
   - cd ../..
   - make
-# Tests should be enabled with coveralls
-#  - cd tests
-#  - make test
+  - cd tests
+  - make
+  - coveralls --root . -E ".*gtest.*" -E ".*Makefile.*"

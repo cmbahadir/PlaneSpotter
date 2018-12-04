@@ -5,7 +5,7 @@ TESTBINS = /obj
 # Where to find user code.
 USER_DIR = ..
 CPPFLAGS += -isystem $(GTEST_DIR)/include
-CXXFLAGS += -g -Wall -Wextra -pthread -std=c++11 -lm -lamqpcpp -ldl -levent
+CXXFLAGS += -g --coverage -Wall -Wextra -pthread -std=c++11 -lm -lamqpcpp -ldl -levent
 
 #Add additional tests here
 TESTS = TCPListener_Test
@@ -46,6 +46,3 @@ TCPListener_Test.o : TCPListener_Test.cpp \
 
 TCPListener_Test : TCPListener.o TCPListener_Test.o gtest_main.a
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -lpthread $^ -o $@
-
-test:
-	./TCPListener_Test
