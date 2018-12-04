@@ -20,5 +20,6 @@ before_install:
 script:
   - cd ../..
   - make
-  - cd tests
-  - make test
+# Tests should be enabled with coveralls
+#  - cd tests
+#  - make test
