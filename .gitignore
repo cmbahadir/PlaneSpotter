@@ -6,3 +6,6 @@ tests/TCPListener_Test
 tests/*.gcov
 tests/*.gcno
 tests/*.gcda
+*.gcno
+*.gcda
+*.gcov
