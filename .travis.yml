@@ -21,6 +21,8 @@ before_install:
 script:
   - cd ../..
   - make
+  - make -f tests/Makefile
+
+after_success:
   - cd tests
-  - make
   - coveralls --root . -E ".*gtest.*" -E ".*Makefile.*"
