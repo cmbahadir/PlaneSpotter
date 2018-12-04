@@ -27,4 +27,5 @@ script:
 #  - ./TCListener_Test
 
 after_success:
+  - mv *.gc* ..
   - coveralls --root .. -E ".*gtest.*" -E ".*Makefile.*"
