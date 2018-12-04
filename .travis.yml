@@ -23,6 +23,8 @@ script:
   - make
   - cd tests
   - make
+# Run Tests
+#  - ./TCListener_Test
 
 after_success:
-  - coveralls --root ../bin/ -E ".*gtest.*" -E ".*Makefile.*"
+  - coveralls --root .. -E ".*gtest.*" -E ".*Makefile.*"
