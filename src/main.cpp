@@ -11,6 +11,11 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
+    //AMQP Handlers
+    MyTcpHandler myHandler;
+    boost::asio::io_service service(4);
+    AMQP::LibBoostAsioHandler handler(service);
+
     string hostaddress;
     vector<string> v;
     char comma = ',';
@@ -22,6 +27,13 @@ int main(int argc, char *argv[]) {
         return 0;
     }
     else {
+        AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://guest:guest@localhost/"));
+        AMQP::TcpChannel channel(&connection);
+        channel.declareExchange("ADSB_EXCHANGE");
+        channel.declareQueue("ADSB_QUEUE").onSuccess([&connection](const std::string &name, uint32_t messagecount, uint32_t consumercount) {
+            std::cout << "declared queue " << name << std::endl;
+            //connection.close();
+        });
         //Class instantiation
         hostaddress = argv[1];
         DecodeSBS* decode = new DecodeSBS();
@@ -30,37 +42,11 @@ int main(int argc, char *argv[]) {
         if (connectStatus == true){
             string response = client->read();
             cout << "Response: %s" << response << endl;
+            //TODO : Publish response
+            //channel.publish()
             decode->split(response, comma, v);
             client->disconnect(); //Disconnnect method is not implemented.
         }
+        return service.run();
     }
-
-    // create an instance of your own tcp handler
-    MyTcpHandler myHandler;
-    // access to the boost asio handler
-    // note: we suggest use of 2 threads - normally one is fin (we are simply demonstrating thread safety).
-    boost::asio::io_service service(4);
-
-    // handler for libev
-    AMQP::LibBoostAsioHandler handler(service);
-    
-    // make a connection
-    AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://guest:guest@localhost/"));
-    
-    // we need a channel too
-    AMQP::TcpChannel channel(&connection);
-    
-    // create a temporary queue
-    channel.declareQueue(AMQP::exclusive).onSuccess([&connection](const std::string &name, uint32_t messagecount, uint32_t consumercount) {
-        
-        // report the name of the temporary queue
-        std::cout << "declared queue " << name << std::endl;
-        
-        // now we can close the connection
-        connection.close();
-    });
-    
-    // run the handler
-    // a t the moment, one will need SIGINT to stop.  In time, should add signal handling through boost API.
-    return service.run();
 }
