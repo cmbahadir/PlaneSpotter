@@ -9,3 +9,4 @@ tests/*.gcda
 *.gcno
 *.gcda
 *.gcov
+build
