@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     bool connectStatus;
 
     if(argc < 2) {
-        cout << "Usage: sbsDecode <hostname>" << endl;
+        cout << "Usage: PlaneSpotter <hostname>" << endl;
         return 0;
     }
     else {
@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
     };
 
     // address of the server
-    AMQP::Address address("amqp://test:test@192.168.1.102/");
+    AMQP::Address address("amqp://guest:guest@localhost/");
 
     // create a AMQP connection object
     AMQP::TcpConnection connection(&myHandler, address);
@@ -59,7 +59,12 @@ int main(int argc, char *argv[]) {
 
     // use the channel object to call the AMQP method you like
     channel.declareExchange("my-exchange", AMQP::fanout);
-    channel.declareQueue("my-queue");
+    channel.declareQueue("my-queue").onSuccess([&connection](const std::string msg, uint32_t messagecount, uint32_t consumercount)
+    {
+        std::cout << "Queue Name: " << msg << std::endl;
+        std::cout << "Message Count: " << messagecount << std::endl;
+        std::cout << "Consumer Count: " << consumercount << std::endl;
+    });
     channel.bindQueue("my-exchange", "my-queue", "my-routing-key");
 
     
