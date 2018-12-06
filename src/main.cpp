@@ -2,6 +2,12 @@
 #include "TCPListener.h"
 #include "AMQPHandler.h"
 
+#include <boost/asio/io_service.hpp>
+#include <boost/asio/strand.hpp>
+#include <boost/asio/deadline_timer.hpp>
+#include <amqpcpp.h>
+#include <amqpcpp/libboostasio.h>
+
 using namespace std;
 
 int main(int argc, char *argv[]) {
@@ -31,70 +37,30 @@ int main(int argc, char *argv[]) {
 
     // create an instance of your own tcp handler
     MyTcpHandler myHandler;
-    int maxfd = 1;
-    int result = 0;
+    // access to the boost asio handler
+    // note: we suggest use of 2 threads - normally one is fin (we are simply demonstrating thread safety).
+    boost::asio::io_service service(4);
 
-    struct timeval tv
-    {
-        1, 0
-    };
-
-    // address of the server
-    AMQP::Address address("amqp://guest:guest@localhost/");
-
-    // create a AMQP connection object
-    AMQP::TcpConnection connection(&myHandler, address);
-
-    // and create a channel
-    AMQP::TcpChannel channel(&connection);
-
-    channel.onError([](const char* message)
-    {
-        std::cout << "channel error: " << message << std::endl;
-    });
-    channel.onReady([]()
-    {
-        std::cout << "channel ready " << std::endl;
-    });
-
-    // use the channel object to call the AMQP method you like
-    channel.declareExchange("my-exchange", AMQP::fanout);
-    channel.declareQueue("my-queue").onSuccess([&connection](const std::string msg, uint32_t messagecount, uint32_t consumercount)
-    {
-        std::cout << "Queue Name: " << msg << std::endl;
-        std::cout << "Message Count: " << messagecount << std::endl;
-        std::cout << "Consumer Count: " << consumercount << std::endl;
-    });
-    channel.bindQueue("my-exchange", "my-queue", "my-routing-key");
-
+    // handler for libev
+    AMQP::LibBoostAsioHandler handler(service);
     
-    do
-    {
-        FD_ZERO(&rfds);
-        std::cout << myHandler.m_fd << std::endl;
-        FD_SET(myHandler.m_fd, &rfds);
-        if (myHandler.m_fd != -1)
-        {
-            maxfd = myHandler.m_fd + 1;
-        }
-
-        result = select(maxfd, &rfds, NULL, NULL, &tv);
-        if ((result == -1) && errno == EINTR)
-        {
-            std::cout << "Error in socket" << std::endl;
-        }
-        else if (result > 0)
-        {
-            if (myHandler.m_flags & AMQP::readable)
-
-                std::cout << "Got something" << std::endl;
-            if (FD_ISSET(myHandler.m_fd, &rfds))
-            {
-                std::cout << "Process over Connection" << std::endl;
-                connection.process(maxfd, myHandler.m_flags);
-            }
-        }
-    }
-    while (1);
-
+    // make a connection
+    AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://guest:guest@localhost/"));
+    
+    // we need a channel too
+    AMQP::TcpChannel channel(&connection);
+    
+    // create a temporary queue
+    channel.declareQueue(AMQP::exclusive).onSuccess([&connection](const std::string &name, uint32_t messagecount, uint32_t consumercount) {
+        
+        // report the name of the temporary queue
+        std::cout << "declared queue " << name << std::endl;
+        
+        // now we can close the connection
+        connection.close();
+    });
+    
+    // run the handler
+    // a t the moment, one will need SIGINT to stop.  In time, should add signal handling through boost API.
+    return service.run();
 }

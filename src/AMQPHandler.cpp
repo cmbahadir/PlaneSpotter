@@ -7,8 +7,6 @@ fd_set rfds;
 //Constructor
 MyTcpHandler::MyTcpHandler()
 {
-    m_fd = -1;
-    m_flags = 0;
 }
 
 //Destructor
@@ -18,16 +16,6 @@ MyTcpHandler::~MyTcpHandler()
 
 void MyTcpHandler::monitor(AMQP::TcpConnection *connection, int fd, int flags)
 {
-    std::cout << "Monitor" << std::endl;
-    if (flags == 0)
-        return;
-    std::cout << "FD" << fd << " Flags " << flags << std::endl;
-    if (flags & AMQP::readable) //check if FD`s flag indcates that file is readable
-    {
-        FD_SET(fd, &rfds);
-        MyTcpHandler::m_fd = fd;
-        MyTcpHandler::m_flags = flags;
-    }
     //connection->process(fd, flags);
     // @todo
     //  add your own implementation, for example by adding the file
