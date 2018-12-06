@@ -17,8 +17,8 @@ before_install:
   - sudo cp -a include/gtest /usr/include
   - sudo cp -a libgtest_main.so libgtest.so /usr/lib/
   - sudo pip install cpp-coveralls
-  - git clone https://github.com/CopernicaMarketingSoftware/AMQP-CPP.git
   - cd "${TRAVIS_BUILD_DIR}"
+  - git clone https://github.com/CopernicaMarketingSoftware/AMQP-CPP.git
   - cd AMQP-CPP
   - mkdir build
   - cd build
