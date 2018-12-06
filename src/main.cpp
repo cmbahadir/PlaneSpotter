@@ -2,9 +2,20 @@
 #include "TCPListener.h"
 #include "AMQPHandler.h"
 
+#include <boost/asio/io_service.hpp>
+#include <boost/asio/strand.hpp>
+#include <boost/asio/deadline_timer.hpp>
+#include <amqpcpp.h>
+#include <amqpcpp/libboostasio.h>
+
 using namespace std;
 
 int main(int argc, char *argv[]) {
+    //AMQP Handlers
+    MyTcpHandler myHandler;
+    boost::asio::io_service service(4);
+    AMQP::LibBoostAsioHandler handler(service);
+
     string hostaddress;
     vector<string> v;
     char comma = ',';
@@ -16,6 +27,13 @@ int main(int argc, char *argv[]) {
         return 0;
     }
     else {
+        AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://guest:guest@localhost/"));
+        AMQP::TcpChannel channel(&connection);
+        channel.declareExchange("ADSB_EXCHANGE");
+        channel.declareQueue("ADSB_QUEUE").onSuccess([&connection](const std::string &name, uint32_t messagecount, uint32_t consumercount) {
+            std::cout << "declared queue " << name << std::endl;
+            //connection.close();
+        });
         //Class instantiation
         hostaddress = argv[1];
         DecodeSBS* decode = new DecodeSBS();
@@ -24,77 +42,11 @@ int main(int argc, char *argv[]) {
         if (connectStatus == true){
             string response = client->read();
             cout << "Response: %s" << response << endl;
+            //TODO : Publish response
+            //channel.publish()
             decode->split(response, comma, v);
             client->disconnect(); //Disconnnect method is not implemented.
         }
+        return service.run();
     }
-
-    // create an instance of your own tcp handler
-    MyTcpHandler myHandler;
-    int maxfd = 1;
-    int result = 0;
-
-    struct timeval tv
-    {
-        1, 0
-    };
-
-    // address of the server
-    AMQP::Address address("amqp://guest:guest@localhost/");
-
-    // create a AMQP connection object
-    AMQP::TcpConnection connection(&myHandler, address);
-
-    // and create a channel
-    AMQP::TcpChannel channel(&connection);
-
-    channel.onError([](const char* message)
-    {
-        std::cout << "channel error: " << message << std::endl;
-    });
-    channel.onReady([]()
-    {
-        std::cout << "channel ready " << std::endl;
-    });
-
-    // use the channel object to call the AMQP method you like
-    channel.declareExchange("my-exchange", AMQP::fanout);
-    channel.declareQueue("my-queue").onSuccess([&connection](const std::string msg, uint32_t messagecount, uint32_t consumercount)
-    {
-        std::cout << "Queue Name: " << msg << std::endl;
-        std::cout << "Message Count: " << messagecount << std::endl;
-        std::cout << "Consumer Count: " << consumercount << std::endl;
-    });
-    channel.bindQueue("my-exchange", "my-queue", "my-routing-key");
-
-    
-    do
-    {
-        FD_ZERO(&rfds);
-        std::cout << myHandler.m_fd << std::endl;
-        FD_SET(myHandler.m_fd, &rfds);
-        if (myHandler.m_fd != -1)
-        {
-            maxfd = myHandler.m_fd + 1;
-        }
-
-        result = select(maxfd, &rfds, NULL, NULL, &tv);
-        if ((result == -1) && errno == EINTR)
-        {
-            std::cout << "Error in socket" << std::endl;
-        }
-        else if (result > 0)
-        {
-            if (myHandler.m_flags & AMQP::readable)
-
-                std::cout << "Got something" << std::endl;
-            if (FD_ISSET(myHandler.m_fd, &rfds))
-            {
-                std::cout << "Process over Connection" << std::endl;
-                connection.process(maxfd, myHandler.m_flags);
-            }
-        }
-    }
-    while (1);
-
 }
