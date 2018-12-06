@@ -11,23 +11,14 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # Includes
 # ------------------------------------------------------------------------------
 
-include_directories(inc)
+include_directories(${PROJECT_SOURCE_DIR}/inc)
 include_directories(SYSTEM ${CMAKE_BINARY_DIR}/inc)
 
-# ------------------------------------------------------------------------------
-# Sources
-# ------------------------------------------------------------------------------
 
-file(GLOB SOURCES "src/*cpp")
-add_executable(PlaneSpotter ${SOURCES})
-
-# ------------------------------------------------------------------------------
-# Libraries
-# ------------------------------------------------------------------------------
-target_link_libraries(PlaneSpotter amqpcpp)
-target_link_libraries(PlaneSpotter pthread)
-target_link_libraries(PlaneSpotter event)
-
+add_subdirectory(src)
+add_subdirectory(tests)
+enable_testing()
+add_test(NAME Test COMMAND PlaneSpotter_Test)
 
 # # ------------------------------------------------------------------------------
 # # Copernica AMQP-CPP
