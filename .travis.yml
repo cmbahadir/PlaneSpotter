@@ -19,12 +19,10 @@ before_install:
 
 # Build steps
 script:
-  - cd ../..
-  - make
-  - cd tests
-  - make
+  - mkdir build && cd build
+  - cmake .. && make
 # Run Tests
-#  - ./TCListener_Test
+#  - ./PlaneSpotter_Test
 
 after_success:
   - coveralls --root .. -E ".*gtest.*" -E ".*Makefile.*"
