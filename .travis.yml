@@ -19,7 +19,7 @@ before_install:
 
 # Build steps
 script:
-  - mkdir build && cd build
+  - cd ../.. && mkdir build && cd build
   - cmake .. && make
 # Run Tests
 #  - ./PlaneSpotter_Test
