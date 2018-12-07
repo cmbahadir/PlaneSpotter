@@ -1,81 +1,22 @@
-#include <amqpcpp.h>
-#include <iostream>
-#include <amqpcpp/linux_tcp.h>
 #include "AMQPHandler.h"
-fd_set rfds;
 
-//Constructor
-MyTcpHandler::MyTcpHandler()
+int AMQPOperation(std::string hostname, std::string message)
 {
-}
+    //AMQP Handlers
+    boost::asio::io_service service(4);
+    AMQP::LibBoostAsioHandler handler(service);
+    AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://guest:guest@" + hostname + "/"));
+    AMQP::TcpChannel adsbChannel(&connection);
+    adsbChannel.declareExchange("ADSB_EXCHANGE", AMQP::fanout);
+    adsbChannel.declareQueue("ADSB_QUEUE").onSuccess([&connection](const std::string &name, uint32_t messagecount, uint32_t consumercount) {
+        std::cout << "declared queue " << name << std::endl;
+        //connection.close();
+    });
+    adsbChannel.bindQueue("ADSB_EXCHANGE", "ADSB_QUEUE", "my-key");
 
-//Destructor
-MyTcpHandler::~MyTcpHandler()
-{
-}
-
-void MyTcpHandler::monitor(AMQP::TcpConnection *connection, int fd, int flags)
-{
-    //connection->process(fd, flags);
-    // @todo
-    //  add your own implementation, for example by adding the file
-    //  descriptor to the main application event loop (like the select() or
-    //  poll() loop). When the event loop reports that the descriptor becomes
-    //  readable and/or writable, it is up to you to inform the AMQP-CPP
-    //  library that the filedescriptor is active by calling the
-    //  connection->process(fd, flags) method.
-}
-
-bool MyTcpHandler::onSecured(AMQP::TcpConnection *connection, const SSL *ssl)
-{
-    return true;
-}
-
-void MyTcpHandler::onAttached(AMQP::TcpConnection *connection)
-{
-    // @todo
-    //  add your own implementation, for example initialize things
-    //  to handle the connection.
-}
-
-void MyTcpHandler::onConnected(AMQP::TcpConnection *connection)
-{
-    std::cout << "Connected" << std::endl;
-    // @todo
-    //  add your own implementation (probably not needed)
-}
-
-void MyTcpHandler::onReady(AMQP::TcpConnection *connection)
-{
-    //@todo
-    //  add your own implementation, for example by creating a channel
-    //  instance, and start publishing or consuming
-}
-
-void MyTcpHandler::onError(AMQP::TcpConnection *connection, const char *message)
-{
-    // @todo
-    //  add your own implementation, for example by reporting the error
-    //  to the user of your program and logging the error
-}
-
-void MyTcpHandler::onClosed(AMQP::TcpConnection *connection)
-{
-    // @todo
-    //  add your own implementation (probably not necessary, but it could
-    //  be useful if you want to do some something immediately after the
-    //  amqp connection is over, but do not want to wait for the tcp
-    //  connection to shut down
-}
-
-void MyTcpHandler::onLost(AMQP::TcpConnection *connection)
-{
-    // @todo
-    //  add your own implementation (probably not necessary)
-}
-
-void MyTcpHandler::onDetached(AMQP::TcpConnection *connection)
-{
-    // @todo
-    //  add your own implementation, like cleanup resources or exit the application
+    //Publish Message to the Queue
+    adsbChannel.startTransaction();
+    adsbChannel.publish("ADSB_EXCHANGE", "my-key", message);
+    adsbChannel.commitTransaction();
+    return service.run();
 }
