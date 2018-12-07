@@ -10,45 +10,35 @@
 
 using namespace std;
 
-int main(int argc, char *argv[]) {
-    //AMQP Handlers
-    boost::asio::io_service service(4);
-    AMQP::LibBoostAsioHandler handler(service);
-
+int main(int argc, char *argv[])
+{
     string hostaddress;
     vector<string> v;
     char comma = ',';
     int hostport = 30003;
-    bool connectStatus, queueDeclareStat;
+    bool connectStatus;
 
-    if(argc < 2) {
+    if (argc < 2)
+    {
         cout << "Usage: PlaneSpotter <hostname>" << endl;
         return 0;
     }
-    else {
-        AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://guest:guest@localhost/"));
-        AMQP::TcpChannel adsbChannel(&connection);
-        adsbChannel.declareExchange("ADSB_EXCHANGE",AMQP::fanout);
-        adsbChannel.declareQueue("ADSB_QUEUE").onSuccess([&connection](const std::string &name, uint32_t messagecount, uint32_t consumercount) {
-            std::cout << "declared queue " << name << std::endl;
-            //connection.close();
-        });
-        adsbChannel.bindQueue("ADSB_EXCHANGE", "ADSB_QUEUE", "my-key");
+    else
+    {
         //Class instantiation
         hostaddress = argv[1];
-        DecodeSBS* decode = new DecodeSBS();
-        TCPListener* client = new TCPListener(hostaddress, hostport);
+        DecodeSBS *decode = new DecodeSBS();
+        TCPListener *client = new TCPListener(hostaddress, hostport);
         connectStatus = client->connected;
-        if (connectStatus == true){
+        while (connectStatus == true)
+        {
             string response = client->read();
             cout << "Response: " << response << endl;
-            //TODO : Publish response
-            adsbChannel.startTransaction();
-            adsbChannel.publish("ADSB_EXCHANGE", "my-key", response);
-            adsbChannel.commitTransaction();
+            AMQPOperation(hostaddress, response);
             decode->split(response, comma, v);
-            client->disconnect(); //Disconnnect method is not implemented.
         }
-        return service.run();
+        client->disconnect(); //Disconnnect method is not implemented.
+        
     }
 }
+
