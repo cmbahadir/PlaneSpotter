@@ -40,6 +40,7 @@ void MyTcpHandler::onAttached(AMQP::TcpConnection *connection)
 
 void MyTcpHandler::onConnected(AMQP::TcpConnection *connection)
 {
+    std::cout << "Connected" << std::endl;
     // @todo
     //  add your own implementation (probably not needed)
 }
