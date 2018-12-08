@@ -1,51 +1,42 @@
+#include <boost/asio/deadline_timer.hpp>
+#include <boost/asio/io_service.hpp>
+#include <boost/asio/ip/tcp.hpp>
+#include <boost/asio/read_until.hpp>
+#include <boost/asio/streambuf.hpp>
+#include <boost/asio/write.hpp>
+#include <boost/thread.hpp>
+#include <boost/bind.hpp>
+#include <amqpcpp.h>
+#include <iostream>
+#include <amqpcpp/linux_tcp.h>
+#include <amqpcpp/libboostasio.h>
+#include <boost/asio/strand.hpp>
+
 #ifndef TCPLISTENER_H
 #define TCPLISTENER_H
-#include <iostream>
-#include <future>
-#include <functional>
 
-#include <errno.h>
-#include <string.h>
-
-#include <strings.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <netinet/tcp.h>
-#include <arpa/inet.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <netdb.h>
-#include <unistd.h>
-#include <sys/signal.h>
-
-class TCPListener {
+class client
+{
   public:
-    TCPListener(std::string host, unsigned int port);
-    TCPListener();
-    TCPListener(int sock);
-    ~TCPListener();
-
-    bool hasError();
-    int connect(std::string host, unsigned int port);
-    int disconnect();
-
-    int write(std::string mesg);
-    std::string read();
-    std::string readAll();
-
-    std::string host;
-    unsigned int port;
-    bool connected;
-
-  protected:
+    client(boost::asio::io_service &io_service);
+    ~client();
+    void start(boost::asio::ip::tcp::resolver::iterator endpoint_iter);
+    void stop();
   private:
-    int enable_keepalive(int sock);
+    void start_connect(boost::asio::ip::tcp::resolver::iterator endpoint_iter);
+    void handle_connect(const boost::system::error_code &ec, boost::asio::ip::tcp::resolver::iterator endpoint_iter);
+    void start_read();
+    void handle_read(const boost::system::error_code &ec);
+    void start_write();
+    void handle_write(const boost::system::error_code&);
+    void check_deadline();
 
-    static const unsigned int buffSize = 1000;
-    int sockfd;//establish connection to ID distribution server
-    struct sockaddr_in servaddr;
-    char recv[buffSize];
-    struct hostent* server;
+  private:
+    bool stopped_;
+    boost::asio::ip::tcp::socket socket_;
+    boost::asio::streambuf input_buffer_;
+    boost::asio::deadline_timer deadline_;
+    boost::asio::deadline_timer heartbeat_timer_;
 };
 
-#endif // TCPLISTENER_H
+#endif

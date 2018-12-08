@@ -9,8 +9,9 @@ add_library(planeSpotter ${SOURCES})
 # ------------------------------------------------------------------------------
 # Libraries
 # ------------------------------------------------------------------------------
-target_link_libraries(PlaneSpotter amqpcpp)
-target_link_libraries(PlaneSpotter pthread)
-target_link_libraries(PlaneSpotter event)
-target_link_libraries(PlaneSpotter dl)
-target_link_libraries(PlaneSpotter boost_system)
+target_link_libraries(PlaneSpotter amqpcpp
+                                    pthread
+                                    event
+                                    dl
+                                    boost_system
+                                    boost_thread)

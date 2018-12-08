@@ -1,22 +1,27 @@
 #include "AMQPHandler.h"
 
-int AMQPOperation(std::string hostname, std::string message)
+AMQPHandler::AMQPHandler(AMQP::TcpConnection &connection)
+    : amqpChannel_(&connection),
+      amqp_exchange_name_("ADSB_EXCHANGE"),
+      amqp_queue_name_("ADSB_QUEUE"),
+      amqp_key_("MY-KEY")
 {
-    //AMQP Handlers
-    boost::asio::io_service service(4);
-    AMQP::LibBoostAsioHandler handler(service);
-    AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://guest:guest@" + hostname + "/"));
-    AMQP::TcpChannel adsbChannel(&connection);
-    adsbChannel.declareExchange("ADSB_EXCHANGE", AMQP::fanout);
-    adsbChannel.declareQueue("ADSB_QUEUE").onSuccess([&connection](const std::string &name, uint32_t messagecount, uint32_t consumercount) {
-        std::cout << "declared queue " << name << std::endl;
-        //connection.close();
-    });
-    adsbChannel.bindQueue("ADSB_EXCHANGE", "ADSB_QUEUE", "my-key");
+}
 
-    //Publish Message to the Queue
-    adsbChannel.startTransaction();
-    adsbChannel.publish("ADSB_EXCHANGE", "my-key", message);
-    adsbChannel.commitTransaction();
-    return service.run();
+AMQPHandler::~AMQPHandler()
+{
+}
+
+void AMQPHandler::AMQPConfigure()
+{
+    AMQPHandler::amqpChannel_.declareExchange(AMQPHandler::amqp_exchange_name_, AMQP::fanout);
+    AMQPHandler::amqpChannel_.declareQueue(AMQPHandler::amqp_queue_name_);
+    AMQPHandler::amqpChannel_.bindQueue(AMQPHandler::amqp_exchange_name_, AMQPHandler::amqp_queue_name_, AMQPHandler::amqp_key_);
+}
+
+void AMQPHandler::AMQPPublishMessage(std::string message)
+{
+    AMQPHandler::amqpChannel_.startTransaction();
+    AMQPHandler::amqpChannel_.publish(AMQPHandler::amqp_exchange_name_, AMQPHandler::amqp_key_, message);
+    AMQPHandler::amqpChannel_.commitTransaction();
 }
