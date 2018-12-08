@@ -1,10 +1,10 @@
 #include <gtest/gtest.h>
 #include "TCPListener.h"
 
-TEST(TCPListener_Construct_with_Dummy_Hostname, Not_Segfault){
-    //ASSERT_EXIT((new TCPListener("dummy", 30003),exit(0)),::testing::ExitedWithCode(0),".*");
-    EXPECT_DEATH(new TCPListener("dummy", 30003),"SEGMENTATION FAULT");
-}
+// TEST(TCPListener_Construct_with_Dummy_Hostname, Not_Segfault){
+//     //ASSERT_EXIT((new TCPListener("dummy", 30003),exit(0)),::testing::ExitedWithCode(0),".*");
+//     EXPECT_DEATH(new TCPListener("dummy", 30003),"SEGMENTATION FAULT");
+// }
 
 // @todo: Comment out if above test is passed.
 // TEST(Try_To_Connect_Unknown_Host, empty) {

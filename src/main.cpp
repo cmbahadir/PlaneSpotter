@@ -9,36 +9,50 @@
 #include <amqpcpp/libboostasio.h>
 
 using namespace std;
+using boost::asio::deadline_timer;
+using boost::asio::ip::tcp;
 
 int main(int argc, char *argv[])
 {
-    string hostaddress;
-    vector<string> v;
-    char comma = ',';
-    int hostport = 30003;
-    bool connectStatus;
-
-    if (argc < 2)
+    try
     {
-        cout << "Usage: PlaneSpotter <hostname>" << endl;
-        return 0;
-    }
-    else
-    {
-        //Class instantiation
-        hostaddress = argv[1];
-        DecodeSBS *decode = new DecodeSBS();
-        TCPListener *client = new TCPListener(hostaddress, hostport);
-        connectStatus = client->connected;
-        while (connectStatus == true)
+        if (argc != 3)
         {
-            string response = client->read();
-            cout << "Response: " << response << endl;
-            AMQPOperation(hostaddress, response);
-            decode->split(response, comma, v);
+            std::cerr << "Usage: client <host> <port>\n";
+            return 1;
         }
-        client->disconnect(); //Disconnnect method is not implemented.
-        
-    }
-}
 
+        /*AMQP*/
+        boost::asio::io_service amqp_service(4);
+        AMQP::LibBoostAsioHandler handler(amqp_service);
+        AMQP::TcpConnection connection(&handler, AMQP::Address("amqp://guest:guest@localhost/"));
+        AMQPHandler adsb(connection);
+        adsb.AMQPConfigure();
+        adsb.AMQPPublishMessage("test_message");
+
+        //Decode SBS Sentence
+        //TODO: Decode for logging after getting SBS Sentence String
+        //vector<string> v;
+        //DecodeSBS decode();
+        //decode.split(reponse, ",", v)
+
+        //TCP Client Service
+        boost::asio::io_service io_service;
+        tcp::resolver r(io_service);
+        client c(io_service);
+
+        c.start(r.resolve(tcp::resolver::query(argv[1], argv[2])));
+
+        //Transfering handlers of services to run in parallel
+        boost::thread_group threads;
+        threads.create_thread(boost::bind(&boost::asio::io_service::run, &amqp_service));
+        io_service.run();
+        threads.join_all();
+    }
+    catch (std::exception &e)
+    {
+        std::cerr << "Exception: " << e.what() << "\n";
+    }
+
+    return 0;
+}
